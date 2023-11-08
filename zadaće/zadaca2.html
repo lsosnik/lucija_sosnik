@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="lucija_sosnik" content="width=device-width, initial-scale=1.0">
+    <title>Škola plivanja</title>
+</head>
+<body>
+    <p>
+        <h2>Škola plivanja</h2>
+    </p>
+    
+    <table border="1">
+        <caption>Raspored treninga</caption>
+        <tr>
+            <th colspan="2">Studeni 2023.</th>
+        </tr>
+        <tr>
+            <th>Datum</th>
+            <th>Vrijeme</th>
+        </tr>
+        <tr>
+            <td>10.11.2023.</td>
+            <td rowspan="3">19:00</td>
+        </tr>
+        <tr>
+            <td>11.11.2023.</td>
+        </tr>
+        <tr>
+            <td>12.11.2023.</td>
+        </tr>
+        <tr>
+            <td rowspan="2">13.11.2023.</td>
+            <td>17:00</td>
+        </tr>
+        </table>
+        <br>
+        
+    <p>
+        <label for="Ime">Ime i prezime:</label>
+        <input id="Ime" type="text" size="15" maxlength="15" required>
+        <br>
+        <br>
+        <label for="pass">Vaša lozinka:</label>
+        <input type="password" name="password" id="pass" size="15" required> 
+        <br><br>
+    </p>
+    <p>Način prijave</p>
+    <input type="radio" name="prijava" id="admin" value="admin">
+    <label for="admin">Admin</label> <br>
+    <input type="radio" name="prijava" id="guest" value="guest">
+    <label for="guest">Guest</label> 
+
+    <p>Prihvaćate li uvjete?</p>
+        <input type="checkbox" name="language" id="da">
+        <label for="da">Prihvaćam</label>
+    <p>
+        <input type="submit" value="Pošalji">    
+        <input type="reset" value="Poništi">  
+    </p>
+    <hr>
+<p>
+    <h4>Videozapis</h4> 
+    <video src="puppy.mp4" controls width="370" height="240"></video>
+</p>
+<h4>Audiozapis</h4>
+<audio src="test-audio.ogg" controls></audio>
+</body>
+</html>
