@@ -1,11 +1,36 @@
-h1 {
-    color: rebeccapurple;
+html{
+    font-size: 14px;
+
 }
 
-p, ul, li {
-    color: blueviolet;
+
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: #98E4FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: blue;
+    font-family: 'Poppins', sans-serif; ;
+}
+
+h6{
+    font-size: medium;
+    text-align: center;
 }
 
 .paragraf1{
-    color: darksalmon;
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#paragraf2{
+    color: brown;
+    font-size: 2rem;
+    font-weight: bolder ;
 }
