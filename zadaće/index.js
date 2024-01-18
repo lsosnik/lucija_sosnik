@@ -1,4 +1,4 @@
-var unesiBroj = prompt ("Unesite broj:")
+var uneseniBroj = prompt ("Unesite broj:")
 
 if (uneseniBroj > 10) {
     alert("Broj je veći od 10");
